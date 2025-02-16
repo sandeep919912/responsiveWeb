@@ -1,0 +1,48 @@
+.contact-content{
+    margin-top: 2px;
+    border-radius: 5px;
+    height: 65vh;
+    padding: 10px;
+    /* background-color: rgb(215, 215, 248); */
+    /* background-image: url("../Assets/anete-lusina-zwsHjakE_iI-unsplash.jpg"); */
+    position: relative;
+    
+}
+
+.form-box{
+    width: 60vw;
+    margin: 5px;
+}
+
+.form-box input{
+    width: 80%;
+    padding: 10px;
+    font-family: var(--font1);
+    margin: 10px;
+    outline-color: rgb(215, 128, 20);
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(194, 242, 228);
+}
+.contact-content::before{
+    content: "";
+    background-image: url("../Assets/vecteezy_flat-isometric-3d-illustration-creative-make-blog-article_15881139_440/vecteezy_flat-isometric-3d-illustration-creative-make-blog-article_15881139.jpg");
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    opacity: 0.3;
+    background-position: center;
+    /* backdrop-filter:; */
+    z-index: -1;
+}
+
+.btn{
+   margin-left: 10px;
+}
+
+#textarea{
+    margin: 12px;
+    padding: 5px;
+    width: 49vw;
+    border: 1px solid brown;
+}
